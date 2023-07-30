@@ -107,7 +107,7 @@ nav ul li a{
 .about-text
 {
 max-width: 500px;
-margin-right: 400px;
+margin-right: 150px;
 display: inline-block;
 text-align: right;
 color: black;
@@ -270,9 +270,49 @@ h1{
     margin-bottom: 30px;
 }
 
+#testimonials{
+    width: 100%;
+    padding:70px 0;
+    background-color: #efefef;
+}
+.testimonial-row{
+    width:80%;
+    margin : auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  flex-wrap: warp;;
+}
+.testimonial-col{
+    flex-basis:28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #00968814;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #contact{
     padding:25px 0 25px 0;
-    background-color: #efefef;
+    background-color: white;
     text-align: center;
 }
 #contact-row{
